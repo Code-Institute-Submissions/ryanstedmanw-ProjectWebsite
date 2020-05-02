@@ -14,14 +14,23 @@
 }
 
 .menuitem {
-  display: block;
+  
+  float: left;
   width: 100%;
-  padding-top: 5px;
+  padding-top: 25px;
   text-align: center;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+.menuitem a{
+    color: #000
+}
+.menuitem p{
+    letter-spacing: 0.5px;
+    font-weight: 400;
 }
 
 .navtext {
@@ -47,29 +56,55 @@
 }
 
 .homepic {
-  background-color: red;
+  background-color: #E9C46A;
   height: 100px;
   width: 100%;
-  display: flex;
+  
 }
 .wikipic {
-  background-color: blue;
+ background-color: #F4A261;
   height: 100px;
   width: 100%;
-  display: flex;
+  
 }
 .apppic {
-  background-color: green;
+ background-color: #B27C3D;
   height: 100px;
   width: 100%;
-  display: flex;
+  
 }
 .wikileakspic {
-  background-color: brown;
+  background-color: #E76F51;
   height: 100px;
   width: 100%;
-  display: flex;
+  
 }
+
+.btn {
+  position: relative;
+  transition:color 0.5s ease;
+  
+}
+
+.btn::after {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  transform-origin:left;
+  transition:width 0.25s ease;
+  z-index:1;
+}
+
+.btn:hover::after {
+  width: 100%;
+}
+
+
 @media (max-width: 420px) {
   .herotext {
     padding: 12px 12px 12px 12px;
@@ -80,4 +115,5 @@
   .herocon {
     padding-top: 15%;
   }
+
 }
