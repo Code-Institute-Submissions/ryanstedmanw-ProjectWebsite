@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
 .bgimage {
   width: 100%;
@@ -14,56 +13,23 @@
   -webkit-transition: all 0.5s ease-in-out;
 }
 
-.wikipic{
-    width:186px;
-    height:186px;
-    background: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png");
-    background-size: cover;
-    background-color: rgb(248,249,250);
-    background-position: center;
+.menuitem {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
-
-.apppic{
-   width:186px;
-    height:186px;
-    background: url("https://cdn.clipart.email/c27b762e8d6537ca116692928e31c869_download-icons-app-store-google-play-svg-eps-png-psd-ai-el-fonts-_1600-989.png");
-    background-size: cover;
-    background-color: rgb(248,249,250);
-    background-position: center; 
+.navtext {
+  font-family: robot;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
-
-.wikileakspic{
-
-width:186px;
-    height:186px;
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/The_Wikileaks_Party_logo.svg/1200px-The_Wikileaks_Party_logo.svg.png");
-    background-size: cover;
-    background-color:rgb(248,249,250);
-    background-position: center;
-
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-
-
-.navtext{
-    font-family: robot;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 1px;
-
-    }
 .herocon {
   padding-top: 8%;
 }
@@ -71,11 +37,47 @@ width:186px;
 .herotext {
   padding: 25px 25px 25px 25px;
   border-radius: 25px;
-   border:1px solid rgb(248,249,250);
-  color: rgb(248,249,250);
+  border: 1px solid rgb(248, 249, 250);
+  color: rgb(248, 249, 250);
   text-shadow: 2px 3px #333;
   letter-spacing: 2px;
   font-family: exo;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.homepic {
+  background-color: red;
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+.wikipic {
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+.apppic {
+  background-color: green;
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+.wikileakspic {
+  background-color: brown;
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+@media (max-width: 420px) {
+  .herotext {
+    padding: 12px 12px 12px 12px;
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .herocon {
+    padding-top: 15%;
+  }
 }
