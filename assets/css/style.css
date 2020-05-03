@@ -88,6 +88,24 @@
 .btn:hover {
   color:white;
 }
+/*---------------------------------------------features page---------------------------*/
+
+.featurespic {
+    background: url("https://blog.capterra.com/wp-content/uploads/2019/10/HEAD_-_10_CRM_Features_and_why_you_need_them_-_Hero_no_text_international-1200x630.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.test{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
 
 /*------------------------------------------------ footer styling -------------------------------*/
 
