@@ -111,7 +111,7 @@ html, body {
 /*---------------------------------------------features page---------------------------*/
 
 .features-pic{
-    width: 100%;
+
   height: 550px;
   background: url("/assets/images/features.jpg");
   background-repeat: no-repeat;
