@@ -7,7 +7,7 @@ html, body {
 
 /*-----------------------------------index------------------------*/
 
-.bgimage {
+.bg-image {
   width: 100%;
   height: 470px;
   background: url("https://cdn.pixabay.com/photo/2014/05/02/21/49/home-office-336373_960_720.jpg");
@@ -20,7 +20,7 @@ html, body {
   -webkit-transition: all 0.5s ease-in-out;
 }
 
-.menuitem {
+.menu-item {
   float: left;
   width: 100%;
   padding-top: 15px;
@@ -29,29 +29,29 @@ html, body {
   font-size: 14px;
   letter-spacing: 1px;
 }
-.menuitem span {
+.menu-item span {
   font-weight: 600;
   font-family: Exo;
 }
-.menuitem a {
+.menu-item a {
   color: #000;
 }
-.menuitem p {
+.menu-item p {
   font-weight: 300;
   font-family: Roboto;
 }
 
-.navtext {
+.nav-text {
   font-family: robot;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 1px;
 }
-.herocon {
+.hero-con {
   padding-top: 8%;
 }
 
-.herotext {
+.hero-text {
   padding: 25px 25px 25px 25px;
   border-radius: 25px;
   border: 1px solid rgb(248, 249, 250);
@@ -65,22 +65,22 @@ html, body {
 
 /*----------------------------------------------------- Box Stylings ------------------------------------------------*/
 
-.homepic {
+.home-card {
   background-color: #e9c46a;
   height: 100px;
   width: 100%;
 }
-.wikipic {
+.wiki-card {
   background-color: #f4a261;
   height: 100px;
   width: 100%;
 }
-.apppic {
+.app-card {
   background-color: #b27c3d;
   height: 100px;
   width: 100%;
 }
-.wikileakspic {
+.wikileaks-card {
   background-color: #e76f51;
   height: 100px;
   width: 100%;
@@ -90,7 +90,7 @@ html, body {
 }
 /*---------------------------------------------features page---------------------------*/
 
-.featurespic{
+.features-pic{
     width: 100%;
   height: 550px;
   background: url("https://bit.ly/2rlzaXi");
@@ -103,7 +103,7 @@ html, body {
   -webkit-transition: all 0.5s ease-in-out;
 }
 /*------------------------------------------------contact page-----------------------------------*/
-.formpic {
+.form-pic {
   padding: 120px 0px 120px 0px;
   width: 100%;
   background: url("https://images.pexels.com/photos/955081/pexels-photo-955081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
