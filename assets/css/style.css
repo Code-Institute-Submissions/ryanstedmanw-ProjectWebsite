@@ -79,6 +79,12 @@ html, body {
     width: 100%;
 }
 
+.second-statement-card{
+    background-color: #BABF95;
+    height: 100%;
+    width: 100%;
+}
+
 .home-card {
   background-color: #e9c46a;
   height: 100px;
