@@ -135,8 +135,10 @@ html, body {
 }
 .menu-item p:hover{
     color: white;
-    transition-duration: .5;
+    transition: 0.3s;
+    
 }
+
 .v-align{
     padding-top: 25px;
 }
