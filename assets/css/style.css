@@ -70,6 +70,11 @@ html, body {
     letter-spacing: 1px;
 }
 
+.col p span{
+    font-weight: 900;
+}
+
+
 /*----------------------------------------------------- Box Stylings ------------------------------------------------*/
 
 .statement-card{
@@ -102,6 +107,26 @@ html, body {
 }
 .wikileaks-card {
   background-color: #e76f51;
+  height: 100px;
+  width: 100%;
+}
+.feat1-card {
+  background-color: #E8DAB2;
+  height: 100px;
+  width: 100%;
+}
+.feat2-card {
+  background-color: #4F6D7A;
+  height: 100px;
+  width: 100%;
+}
+.feat3-card {
+  background-color: #C0D6DF;
+  height: 100px;
+  width: 100%;
+}
+.feat4-card {
+  background-color: #8C8C8C;
   height: 100px;
   width: 100%;
 }
