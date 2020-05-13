@@ -133,6 +133,13 @@ html, body {
 .btn:hover {
   color: white;
 }
+.menu-item p:hover{
+    color: white;
+    transition-duration: .5;
+}
+.v-align{
+    padding-top: 25px;
+}
 /*---------------------------------------------features page---------------------------*/
 
 .features-pic{
