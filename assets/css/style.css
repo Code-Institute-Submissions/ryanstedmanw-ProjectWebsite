@@ -156,6 +156,15 @@ html, body {
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
 }
+
+.hidden-card{
+    display: none;
+}
+.feat1-card:hover .hidden-card{
+    display: block;
+}
+
+
 /*------------------------------------------------contact page-----------------------------------*/
 .form-pic {
   padding: 120px 0px 120px 0px;
