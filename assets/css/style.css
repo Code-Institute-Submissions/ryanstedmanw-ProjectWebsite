@@ -158,9 +158,8 @@ html, body {
 }
 
 /*------------------------------------------------contact page-----------------------------------*/
-.form-pic {
-  padding: 120px 0px 120px 0px;
-  width: 100%;
+.contact-pic {
+  height: 550px;
   background: url("/assets/images/contact.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -169,24 +168,14 @@ html, body {
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
 }
-
-.formcontain{
-    padding: 25px 25px 25px 25px;
-    border-radius: 25px;
-  border: 1px solid rgb(248, 249, 250);
-  letter-spacing: 2px;
-  font-family: exo;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.form-head{
-    color: white;
-}
-.form1{
-    text-align: left;
-    color: white;
+.form-wrapper h1{
+    font-family: exo;
 }
 
+.form-text{
+    color: red;
+    font-size: 40px;
+}
 /*------------------------------------------------ footer styling -------------------------------*/
 
 .footerstyle {
