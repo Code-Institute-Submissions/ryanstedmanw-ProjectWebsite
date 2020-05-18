@@ -170,12 +170,20 @@ html, body {
 }
 .form-wrapper h1{
     font-family: exo;
+    
+}
+.form-wrapper{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 15px 15px 15px;
+    
+    border-radius: 25px;
+    font-family: roboto;
+    letter-spacing: 1px;
+    margin: auto;
+    text-align: left;
+    color: white;
 }
 
-.form-text{
-    color: red;
-    font-size: 40px;
-}
 /*------------------------------------------------ footer styling -------------------------------*/
 
 .footerstyle {
