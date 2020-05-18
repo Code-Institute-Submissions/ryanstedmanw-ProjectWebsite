@@ -168,9 +168,9 @@ body {
   text-align: center;
 }
 .form-wrapper {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   padding: 15px 15px 15px 15px;
-
+border: 1px solid white;
   border-radius: 25px;
   font-family: roboto;
   letter-spacing: 1px;
@@ -180,12 +180,20 @@ body {
 }
 .input-box{
     width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 7px 7px 7px 7px;
+  text-align: center;
 }
 
 .submit-button {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
-  border: 0px;
+  letter-spacing: 1px;
+  border: 1px solid white;
   padding: 1px 5px 1px 5px;
   border-radius: 25px;
   margin: 0 auto;

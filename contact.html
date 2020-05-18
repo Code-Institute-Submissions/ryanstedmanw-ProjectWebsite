@@ -46,16 +46,16 @@
 				<div class="form-wrapper">
 
 					<h1>Contact us</h1>
-					<form action="#" method="get"></form>
-					<label for="first-name">Please input your first name</label><br>
-					<input type="text" id="first-name" name="first-name"><br>
-					<label for="second-name">Please input your second name</label><br>
-					<input type="text" id="second-name" name="second-name"><br>
-					<label for="input-message">Please input your message</label><br>
-					<textarea name="input-message" id="input-message" cols="40" rows="5"></textarea> <br>
-					<label for="email">Please input your email</label><br>
-					<input type="email" name="email" id="email"><br>
-                <input type="submit">
+					<form action="page.php" method="POST"></form>
+					<label for="first-name">First name:</label><br>
+					<input type="text" id="first-name" name="first-name" class="input-box" placeholder="Please input your first name" required><br><br>
+					<label for="second-name">Second name:</label><br>
+					<input type="text" id="second-name" name="second-name" class="input-box" placeholder="Please input your second name" required><br><br>
+					<label for="input-message">What you want to say:</label><br>
+					<textarea name="input-message" id="input-message" cols="40" rows="5" class="input-box" placeholder="Please input your message" required></textarea> <br><br>
+					<label for="email">Email:</label><br>
+					<input type="email" name="email" id="email" class="input-box" placeholder="Please input your email" required><br><br>
+                <input type="submit" class="submit-button" >
     </div>
 </div>
 
