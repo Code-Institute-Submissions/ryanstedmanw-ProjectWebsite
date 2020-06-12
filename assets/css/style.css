@@ -152,6 +152,12 @@ body {
   -webkit-transition: all 0.5s ease-in-out;
 }
 
+.card-size{
+    margin: auto;
+    height: auto;
+    padding: 15px;
+}
+
 /*------------------------------------------------contact page-----------------------------------*/
 .contact-pic {
   height: 650px;
