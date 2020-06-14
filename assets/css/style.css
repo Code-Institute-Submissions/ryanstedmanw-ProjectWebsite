@@ -208,6 +208,26 @@ border: 1px solid white;
   display: block;
 }
 
+
+/*------------------------------------------------ blm ------------------------------------------*/
+
+.blm-pic{
+    background-image: url("/assets/images/blm.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.blm-text{
+   color: black;
+   text-shadow: none;
+   font-family: roboto;
+}
+
 /*------------------------------------------------ footer styling -------------------------------*/
 
 .footerstyle {
