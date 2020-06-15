@@ -228,6 +228,28 @@ border: 1px solid white;
    font-family: roboto;
 }
 
+.blm-card1{
+    background-color: #121116;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    color: #C3BABA;
+}
+.blm-card2{
+    background-color: #736F72;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    color: #C3BABA;
+}
+.blm-card3{
+    background-color: #B2B2B2;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    color: #121116;
+}
+
 /*------------------------------------------------ footer styling -------------------------------*/
 
 .footerstyle {
