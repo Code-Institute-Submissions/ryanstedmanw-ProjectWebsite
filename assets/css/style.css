@@ -186,7 +186,8 @@ body {
 
 /*------------------------------------------------contact page-----------------------------------*/
 .contact-pic {
-  min-height: calc(100vh -100px);
+  min-height: calc(100vh - 100px);
+  height: calc(100vh - 100px);
   background: url("/assets/images/contact.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -278,7 +279,7 @@ border: 1px solid white;
 /*------------------------------------------------ footer styling -------------------------------*/
 
 .footerstyle {
-  padding: 15px 0px 5px 0px;
+  padding: 20px;
   background-color: rgb(30, 30, 30);
   color: white;
   text-align: center;
