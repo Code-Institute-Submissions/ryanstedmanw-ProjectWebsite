@@ -213,7 +213,7 @@ border: 1px solid white;
 }
 .input-box{
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     
   color: white;
   border: 1px solid white;
@@ -223,11 +223,11 @@ border: 1px solid white;
 }
 
 .submit-button {
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
+  background: #b27c3d;
+  color: rgb(5, 5, 5);
   letter-spacing: 1px;
   border: 1px solid white;
-  padding: 1px 5px 1px 5px;
+  padding: 10px;
   border-radius: 25px;
   margin: 0 auto;
   display: block;
