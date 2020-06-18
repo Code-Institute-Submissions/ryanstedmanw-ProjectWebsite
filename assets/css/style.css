@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+.cursor-grab{
+    cursor: grab;
+}
+
 /*-----------------------------------index------------------------*/
 
 .bg-image {
