@@ -5,6 +5,8 @@ body {
   overflow-x: hidden;
 }
 
+/*---------------------------------------features card overright -------------------------------------------*/
+
 .cursor-grab{
     cursor: grab;
 }
@@ -27,6 +29,7 @@ border-color: rgba(0, 0, 0, 0.0);
     font-weight: 500;
     color: black;
     text-align: center;
+    border-top: 1px solid black;
 }
 
 /*-----------------------------------index------------------------*/
@@ -157,19 +160,19 @@ border-color: rgba(0, 0, 0, 0.0);
 }
 .feat1-card {
   background-color: #e8dab2;
-  
+  height: auto;
 }
 .feat2-card {
   background-color: #4f6d7a;
-  
+  height: auto;
 }
 .feat3-card {
   background-color: #c0d6df;
-  
+  height: auto;
 }
 .feat4-card {
   background-color: #8c8c8c;
-  width: auto;
+  height: auto;
 }
 .btn:hover {
   color: white;
