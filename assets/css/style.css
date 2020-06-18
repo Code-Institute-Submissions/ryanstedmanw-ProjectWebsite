@@ -123,7 +123,9 @@ border-color: rgba(0, 0, 0, 0.0);
 
 /*----------------------------------------------------- Box Stylings ------------------------------------------------*/
 
-
+.lowercaseT{
+    text-transform: lowercase;
+}
 
 .statement-card {
   background-color: #c4ad83;
@@ -209,7 +211,7 @@ border-color: rgba(0, 0, 0, 0.0);
 
 /*------------------------------------------------contact page-----------------------------------*/
 .contact-pic {
-  min-height: calc(100vh - 100px);
+  min-height: 700px;
   height: calc(100vh - 100px);
   background: url("/assets/images/contact.jpg");
   background-repeat: no-repeat;
@@ -234,6 +236,7 @@ border: 1px solid white;
   margin: auto;
   text-align: left;
   color: white;
+  margin-bottom: 50px;
 }
 .input-box{
     width: 100%;
@@ -272,11 +275,13 @@ border: 1px solid white;
 }
 
 .blm-text{
-   color: black;
+   color: white;
    text-shadow: none;
    font-family: roboto;
+   font-weight: 400;
+font-size: 5REM;
+letter-spacing: 1PX;
 }
-
 .blm-card1{
     background-color: #121116;
     height: auto;
