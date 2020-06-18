@@ -37,7 +37,7 @@ border-color: rgba(0, 0, 0, 0.0);
 .bg-image {
   width: auto;
   height: calc(100vh - 100px);
-  background: url("../assets/images/home.jpg");
+  background: url("../images/home.jpg");
   
 
   background-repeat: no-repeat;
@@ -195,7 +195,7 @@ border-color: rgba(0, 0, 0, 0.0);
 .features-pic {
   height: calc(100vh - 100px);
 
-  background: url("../assets/images/features.jpg");
+  background: url("../images/features.jpg");
 
   background-repeat: no-repeat;
   background-position: center;
@@ -219,7 +219,7 @@ border-color: rgba(0, 0, 0, 0.0);
   min-height: 700px;
   height: calc(100vh - 100px);
 
-  background: url("../assets/images/contact.jpg");
+  background: url("../images/contact.jpg");
 
 
   background-repeat: no-repeat;
@@ -273,7 +273,7 @@ border: 1px solid white;
 
 .blm-pic{
 
-    background-image: url("../assets/images/blm.jpg");
+    background-image: url("../images/blm.jpg");
 
     height: 650px;
     background-repeat: no-repeat;
