@@ -85,6 +85,7 @@ border-color: rgba(0, 0, 0, 0.0);
   font-family: exo;
   text-align: center;
   font-size: 2rem;
+  padding-top: 40vh;
 }
 .statement-text {
   padding: 20px 20px 20px 20px;
@@ -114,7 +115,7 @@ border-color: rgba(0, 0, 0, 0.0);
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: calc(40vh);
+  
   
 }
 
@@ -275,11 +276,11 @@ border: 1px solid white;
 }
 
 .blm-text{
-   color: white;
-   text-shadow: none;
+   color: rgb(248, 249, 250);
+  text-shadow: 2px 3px #333;;
    font-family: roboto;
    font-weight: 400;
-font-size: 5REM;
+font-size: 3REM;
 letter-spacing: 1PX;
 }
 .blm-card1{
