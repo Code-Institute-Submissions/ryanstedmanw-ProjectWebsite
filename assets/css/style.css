@@ -91,6 +91,7 @@ border-color: rgba(0, 0, 0, 0.0);
 }
 .statement-text {
   padding: 20px 20px 20px 20px;
+  margin: auto;
   text-align: center;
   font-family: exo;
   color: black;
