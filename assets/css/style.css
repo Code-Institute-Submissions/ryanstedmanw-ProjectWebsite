@@ -286,9 +286,9 @@ border: 1px solid white;
 }
 
 .blm-text{
-   mix-blend-mode: difference;
+   color: black;
    font-family: roboto;
-   font-weight: 400;
+   font-weight: 600;
 font-size: 3REM;
 letter-spacing: 1PX;
 text-shadow: none;

@@ -1,7 +1,7 @@
 $(document).ready(function($) {
     setTimeout(function() {
      $("html, footer").animate(
-    { scrollTop: "300px" },
+    { scrollTop: "1000px" },
     {
         complete : function(){
         event.preventDefault();
